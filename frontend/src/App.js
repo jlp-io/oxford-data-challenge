@@ -68,14 +68,8 @@ createChart() {
     <div className="App">
       <header className="App-header">
         <p>
-			Hello
+		Our World in Data
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-        >
-          Learn React
-        </a>
 		<Typeahead
           labelKey="name"
           options={this.state.countries}
